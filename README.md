@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎨 Chat with GeoGebra
 
-## Getting Started
+(⚠️本项目因作者找到了一周加班五天的工作而丧失了维护能力，虽然作者已经畅想出了详细的后续更新计划和宏伟的商业版图。如果您觉得您有能力让这个项目更好，请联系作者)
 
-First, run the development server:
+使用自然语言交流，辅助绘制 GeoGebra 图像的轻量工具。
+
+## 🛠️ 项目简介
+
+**Chat with GeoGebra** 是一个基于 **Next.js** 构建的项目，  
+通过与大语言模型（LLM）交流，让用户用自然语言描述需求，自动生成 GeoGebra 命令并实时绘图。
+
+## 🧙‍♂️ 背景故事（中二版）
+
+在那个充满阳光与幻梦的青春时代，作者暗恋着一位温柔而又神秘的女教师。  
+她手执粉笔，绘制着世界的边界，却苦于无法驯服名为 GeoGebra 的神之工具。
+
+面对女神的无助眼神，作者点燃了心中的烈火：  
+> “即使踏碎万难，我也要为她创造一把能用语言驾驭图形的魔杖！”
+
+数月闭关修炼，挑战 LLM，驾驭 API，召唤 Claude、ChatGPT 与 DeepSeek，  
+终于，**Chat with GeoGebra** 横空出世！
+
+然而，当迷雾散尽，少年终于明白：女神不过是凡人，她的光芒只存在于幻想之中。  
+带着微笑与遗憾，作者收剑入鞘，将这份力量留给了所有需要它的人。🌌
+
+## ✨ 功能特色
+
+- 🧠 自然语言生成 GeoGebra 命令
+- 🖼️ 自动绘制图像，实时反馈
+- 🔗 支持接入多个大模型（Claude、ChatGPT、DeepSeek）
+- 🌐 无需安装，直接在线访问
+- 🏠 支持本地部署
+- 🔑 支持自定义 API Key
+
+## 🌍 在线体验
+
+直接访问：[👉 点击这里访问网站](https://chat-with-geogebra.ivory.cafe)
+
+## 🖼️ 预览截图
+
+![预览图](./public/preview.jpg)  
+
+## 🚀 快速开始（本地部署）
 
 ```bash
+
+# 克隆仓库
+git clone https://github.com/tiwe0/chat-with-geogebra.git
+cd chat-with-geogebra 
+
+# 安装依赖
+npm install
+
+# 运行开发环境
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ ⚡ 注意：需要自行准备 Claude、ChatGPT、DeepSeek 等服务的 API Key。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧩 技术栈
+- Next.js
+- GeoGebra Command API
+- 大语言模型接入（Claude / ChatGPT / DeepSeek）
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📜 开源协议
 
-## Learn More
+本项目基于 MIT License 开源，允许自由商用。
+代码版权归作者 Ivory (也就是本仓库的拥有者，虽然他的 github 账号名为 tiwe0) 所有。
 
-To learn more about Next.js, take a look at the following resources:
+## 📬 联系方式
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+作者：Ivory
+邮箱：contact@ivory.cafe
+请注明来意，因为作者的邮箱里垃圾订阅邮件很多，虽然这些邮件也不能让作者感到被关心，也不能给作者带来心灵上的温暖。
