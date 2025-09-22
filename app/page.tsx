@@ -316,16 +316,15 @@ export default function ChatPage() {
                           onChange={(e) =>
                             useAppStore
                               .getState()
-                              .updateConfig({ modelType: e.target.value })
+                              .updateConfig({modelType: e.target.value})
                           }
                         >
                           <option value="gpt-4o">GPT-4o</option>
                           <option value="gpt-4">GPT-4</option>
                           <option value="gpt-3.5-turbo">GPT-3.5 Turbo</option>
                           <option value="claude-3-opus">Claude 3 Opus</option>
-                          <option value="claude-3-sonnet">
-                            Claude 3 Sonnet
-                          </option>
+                          <option value="claude-3-sonnet">Claude 3 Sonnet</option>
+                          <option value="claude-opus-4-20250514">claude-opus-4-20250514</option>
                           <option value="claude-3-haiku">Claude 3 Haiku</option>
                           <option value="deepseek-chat">DeepSeek Chat</option>
                           <option value="deepseek-coder">DeepSeek Coder</option>

@@ -38,15 +38,9 @@ interface ConfigDialogProps {
 }
 
 const MODEL_OPTIONS = [
-  { value: "gpt-4o", label: "GPT-4o", provider: "openai" },
-  { value: "gpt-4", label: "GPT-4", provider: "openai" },
-  { value: "gpt-3.5-turbo", label: "GPT-3.5 Turbo", provider: "openai" },
-  { value: "claude-3-opus", label: "Claude 3 Opus", provider: "anthropic" },
-  { value: "claude-3-sonnet", label: "Claude 3 Sonnet", provider: "anthropic" },
-  { value: "claude-3-haiku", label: "Claude 3 Haiku", provider: "anthropic" },
-  { value: "deepseek-chat", label: "DeepSeek Chat", provider: "deepseek" },
-  { value: "deepseek-coder", label: "DeepSeek Coder", provider: "deepseek" },
-  { value: "llama-3", label: "Llama 3", provider: "openai" },
+  { value: "qwen3-coder", label: "qwen3-coder", provider: "openrouter" },
+  { value: "claude-opus-4-20250514", label: "claude-opus-4", provider: "anthropic" },
+
 ]
 
 export function ConfigDialog({ open, onOpenChange, onSave }: ConfigDialogProps) {
